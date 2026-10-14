@@ -1,0 +1,90 @@
+@import "tailwindcss";
+
+/* Paleta inspirada en Yucatán: amarillo de las fachadas de Izamal,
+   verde azulado de los cenotes y los hilos del bordado del hipil. */
+:root {
+  --bg: #f4f6f3;
+  --surface: #ffffff;
+  --ink: #18292b;
+  --muted: #4d5f60;
+  --line: #d3dcd7;
+  --cenote: #0b6668;
+  --rosa: #b8325a;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #10201f;
+    --surface: #162a29;
+    --ink: #e7eeea;
+    --muted: #a3b5b1;
+    --line: #2a3d3c;
+    --cenote: #6cc9c4;
+    --rosa: #e7799a;
+  }
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-cenote: var(--cenote);
+  --color-rosa: var(--rosa);
+
+  /* Colores fijos (no cambian con el modo oscuro) */
+  --color-izamal: #e9b12e;
+  --color-tinta: #18292b;
+  --color-tela: #fbfbf7;
+  --color-hilo-rosa: #c2385f;
+  --color-hilo-verde: #57774a;
+  --color-hilo-azul: #0b6668;
+
+  --font-display: var(--font-bricolage), ui-sans-serif, system-ui, sans-serif;
+  --font-sans: var(--font-atkinson), ui-sans-serif, system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+:focus-visible {
+  outline: 3px solid var(--cenote);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+header :focus-visible {
+  outline-color: #18292b;
+}
+
+/* El único movimiento de la página: la banda se "borda" al cargar */
+.stitch-reveal {
+  animation: stitch 1.8s steps(24, end) 0.3s both;
+}
+
+@keyframes stitch {
+  from {
+    clip-path: inset(0 100% 0 0);
+  }
+  to {
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .stitch-reveal {
+    animation: none;
+  }
+}
