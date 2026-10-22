@@ -73,3 +73,17 @@ src/
 El proyecto ya incluye Vercel Analytics. Para activarlo, entra a tu proyecto en Vercel,
 abre la pestaña **Analytics** y da clic en **Enable**. A partir del siguiente despliegue
 verás cuántas personas visitan tu portafolio y desde dónde llegan.
+
+## Google Search Console y Google Analytics
+
+El código ya está listo; solo necesitas agregar dos variables de entorno en Vercel
+(Settings › Environment Variables) y volver a desplegar:
+
+| Variable | Valor | De dónde sale |
+| --- | --- | --- |
+| `GOOGLE_SITE_VERIFICATION` | El código de la etiqueta HTML (solo lo que va en `content="..."`) | Google Search Console › Agregar propiedad › Prefijo de URL › Etiqueta HTML |
+| `NEXT_PUBLIC_GA_ID` | Tu ID de medición, por ejemplo `G-ABC123XYZ` | Google Analytics › Administrar › Flujos de datos › Web |
+
+Si tu dirección no es `https://suemydzib.vercel.app`, agrega también `NEXT_PUBLIC_SITE_URL`.
+
+El sitemap queda en `/sitemap.xml` y el archivo para buscadores en `/robots.txt`.

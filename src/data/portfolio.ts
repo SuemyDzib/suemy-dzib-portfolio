@@ -81,15 +81,7 @@ export const experience: Job[] = [
       "Importación y exportación de hojas de cálculo (xls, xlsx) con PhpSpreadsheet.",
       "Generación de códigos QR con PHP y consumo de APIs de terceros.",
     ],
-    tech: [
-      "PHP",
-      "JavaScript",
-      "MySQL",
-      "jQuery",
-      "Axios",
-      "SOAP/XML",
-      "APIs REST",
-    ],
+    tech: ["PHP", "JavaScript", "MySQL", "jQuery", "Axios", "SOAP/XML", "APIs REST"],
   },
   {
     role: "Atención al cliente y marketing digital",
@@ -113,12 +105,7 @@ export const projects: Project[] = [
       "Carga archivos de ventas (xlsx, xls, ods o csv) y valida cada fila antes de guardarla: detecta correos inválidos, fechas imposibles o futuras, cantidades y precios incorrectos y filas duplicadas, y reconoce columnas en cualquier orden o con nombres parecidos. Muestra los errores celda por celda, permite descargarlos en Excel para corregirlos e incluye un tablero con ingresos por mes y por categoría, productos más vendidos y la calidad de cada archivo importado.",
     tech: ["Laravel", "PHP", "PhpSpreadsheet"],
     demo: "https://importador-ventas-laravel.onrender.com/importaciones",
-    repos: [
-      {
-        label: "Ver código",
-        href: "https://github.com/SuemyDzib/importador-ventas-laravel",
-      },
-    ],
+    repos: [{ label: "Ver código", href: "https://github.com/SuemyDzib/importador-ventas-laravel" }],
     featured: true,
     personal: true,
   },
@@ -129,14 +116,8 @@ export const projects: Project[] = [
     tech: ["Next.js", "Nest.js", "TypeScript", "PostgreSQL"],
     demo: "https://pos-frontend-wheat.vercel.app/1",
     repos: [
-      {
-        label: "Código frontend",
-        href: "https://github.com/SuemyDzib/pos-frontend",
-      },
-      {
-        label: "Código backend",
-        href: "https://github.com/SuemyDzib/pos-backend",
-      },
+      { label: "Código frontend", href: "https://github.com/SuemyDzib/pos-frontend" },
+      { label: "Código backend", href: "https://github.com/SuemyDzib/pos-backend" },
     ],
     featured: true,
   },
@@ -147,14 +128,8 @@ export const projects: Project[] = [
     tech: ["Vue 3", "Pinia", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
     demo: "https://suemydzib-appsalon.netlify.app/",
     repos: [
-      {
-        label: "Código frontend",
-        href: "https://github.com/SuemyDzib/appsalon-frontend",
-      },
-      {
-        label: "Código backend",
-        href: "https://github.com/SuemyDzib/appsalon-backend",
-      },
+      { label: "Código frontend", href: "https://github.com/SuemyDzib/appsalon-frontend" },
+      { label: "Código backend", href: "https://github.com/SuemyDzib/appsalon-backend" },
     ],
     featured: true,
   },
@@ -165,14 +140,8 @@ export const projects: Project[] = [
     tech: ["React", "Node.js", "TypeScript", "Tailwind CSS"],
     demo: "https://suemydzib-devtree.netlify.app/",
     repos: [
-      {
-        label: "Código frontend",
-        href: "https://github.com/SuemyDzib/devtree_frontend",
-      },
-      {
-        label: "Código backend",
-        href: "https://github.com/SuemyDzib/devtree_backend",
-      },
+      { label: "Código frontend", href: "https://github.com/SuemyDzib/devtree_frontend" },
+      { label: "Código backend", href: "https://github.com/SuemyDzib/devtree_backend" },
     ],
   },
   {
@@ -181,12 +150,7 @@ export const projects: Project[] = [
       "Buscador de recetas de bebidas por ingrediente y categoría que consume una API externa e incluye un asistente con inteligencia artificial, conectado a modelos gratuitos de OpenRouter, para que el usuario encuentre la receta que busca.",
     tech: ["Vue", "Pinia", "APIs REST", "OpenRouter (IA)"],
     demo: "https://suemydzib-bebidas-vue.netlify.app/",
-    repos: [
-      {
-        label: "Ver código",
-        href: "https://github.com/SuemyDzib/bebidas-vue-ai",
-      },
-    ],
+    repos: [{ label: "Ver código", href: "https://github.com/SuemyDzib/bebidas-vue-ai" }],
     featured: true,
   },
   {
@@ -195,12 +159,7 @@ export const projects: Project[] = [
       "Sitio renderizado en el servidor con catálogo de viajes, páginas de detalle por destino y una sección de testimoniales donde los clientes dejan sus comentarios.",
     tech: ["Node.js", "Express", "Pug", "Sequelize"],
     demo: "https://agencia-viajes-node-4rvb.onrender.com/",
-    repos: [
-      {
-        label: "Ver código",
-        href: "https://github.com/SuemyDzib/agencia-viajes-node",
-      },
-    ],
+    repos: [{ label: "Ver código", href: "https://github.com/SuemyDzib/agencia-viajes-node" }],
   },
   {
     title: "Control de gastos",
@@ -208,12 +167,7 @@ export const projects: Project[] = [
       "Aplicación para definir un presupuesto, registrar gastos por categoría y ver en todo momento cuánto dinero queda disponible.",
     tech: ["Vue"],
     demo: "https://suemydzib-plan-gastos.netlify.app/",
-    repos: [
-      {
-        label: "Ver código",
-        href: "https://github.com/SuemyDzib/admin-gastos",
-      },
-    ],
+    repos: [{ label: "Ver código", href: "https://github.com/SuemyDzib/admin-gastos" }],
   },
 
   // ── Otros proyectos ──────────────────────────────────────────
@@ -223,42 +177,27 @@ export const projects: Project[] = [
       "Gestión de clientes con alta, edición y eliminación de registros conectados a una API REST, con navegación entre vistas.",
     tech: ["Vue", "Vue Router", "Tailwind CSS", "APIs REST"],
     demo: "https://suemydzib-crm-vue.netlify.app/",
-    repos: [
-      { label: "Ver código", href: "https://github.com/SuemyDzib/crm-vue" },
-    ],
+    repos: [{ label: "Ver código", href: "https://github.com/SuemyDzib/crm-vue" }],
   },
   {
     title: "Administrador de pacientes veterinarios",
-    description:
-      "Registro, edición y eliminación de pacientes y sus propietarios.",
+    description: "Registro, edición y eliminación de pacientes y sus propietarios.",
     tech: ["Vue"],
     demo: "https://suemydzib-admin-vet.netlify.app/",
-    repos: [
-      {
-        label: "Ver código",
-        href: "https://github.com/SuemyDzib/admin-pacientes",
-      },
-    ],
+    repos: [{ label: "Ver código", href: "https://github.com/SuemyDzib/admin-pacientes" }],
   },
   {
     title: "Cotizador de criptomonedas",
-    description:
-      "Consulta el precio de criptomonedas en distintas monedas mediante una API.",
+    description: "Consulta el precio de criptomonedas en distintas monedas mediante una API.",
     tech: ["Vue", "APIs REST"],
     demo: "https://suemydzib-cripto-vue.netlify.app/",
   },
   {
     title: "Consulta del clima",
-    description:
-      "Muestra el clima actual de una ciudad usando una API de clima.",
+    description: "Muestra el clima actual de una ciudad usando una API de clima.",
     tech: ["Vue", "APIs REST"],
     demo: "https://app-clima-vue-rouge.vercel.app/",
-    repos: [
-      {
-        label: "Ver código",
-        href: "https://github.com/SuemyDzib/app-clima-vue",
-      },
-    ],
+    repos: [{ label: "Ver código", href: "https://github.com/SuemyDzib/app-clima-vue" }],
   },
   {
     title: "GuitarLA",
@@ -271,73 +210,23 @@ export const projects: Project[] = [
 export const skills: { group: string; items: string[] }[] = [
   {
     group: "Frontend",
-    items: [
-      "HTML5",
-      "CSS",
-      "JavaScript",
-      "TypeScript",
-      "React",
-      "Next.js",
-      "Vue (Composition API)",
-      "Pinia",
-      "jQuery",
-      "Axios",
-    ],
+    items: ["HTML5", "CSS", "JavaScript", "TypeScript", "React", "Next.js", "Vue (Composition API)", "Pinia", "jQuery", "Axios"],
   },
   {
     group: "Estilos",
-    items: [
-      "Tailwind CSS",
-      "Bootstrap",
-      "Bulma",
-      "Semantic UI",
-      "Tachyons",
-      "Diseño responsivo",
-    ],
+    items: ["Tailwind CSS", "Bootstrap", "Bulma", "Semantic UI", "Tachyons", "Diseño responsivo"],
   },
   {
     group: "Backend",
-    items: [
-      "PHP",
-      "Laravel",
-      "CodeIgniter",
-      "Node.js",
-      "Express",
-      "Nest.js",
-      "Pug",
-      "Sequelize",
-      "APIs REST",
-      "SOAP y XML",
-      "Patrón MVC",
-      "Async/Await",
-    ],
+    items: ["PHP", "Laravel", "CodeIgniter", "Node.js", "Express", "Nest.js", "Pug", "Sequelize", "APIs REST", "SOAP y XML", "Patrón MVC", "Async/Await"],
   },
   {
     group: "Datos y herramientas",
-    items: [
-      "MySQL",
-      "PostgreSQL",
-      "MongoDB",
-      "SQL",
-      "Administración de bases de datos",
-      "Postman",
-      "OpenRouter (IA)",
-      "PHPMailer",
-      "PhpSpreadsheet",
-      "Mailjet",
-    ],
+    items: ["MySQL", "PostgreSQL", "MongoDB", "SQL", "Administración de bases de datos", "Postman", "OpenRouter (IA)", "PHPMailer", "PhpSpreadsheet", "Mailjet"],
   },
   {
     group: "También conozco",
-    items: [
-      "C#",
-      "Java y Kotlin para móvil",
-      "Python (básico)",
-      "Photoshop",
-      "Premiere Pro",
-      "Lightroom",
-      "Adobe XD",
-    ],
+    items: ["C#", "Java y Kotlin para móvil", "Python (básico)", "Photoshop", "Premiere Pro", "Lightroom", "Adobe XD"],
   },
 ];
 
