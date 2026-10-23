@@ -222,7 +222,11 @@ export const skills: { group: string; items: string[] }[] = [
   },
   {
     group: "Datos y herramientas",
+<<<<<<< HEAD
     items: ["MySQL", "PostgreSQL", "MongoDB", "SQL", "Administración de bases de datos", "Postman", "Claude (IA para desarrollo)", "OpenRouter (IA)", "HubSpot Content Hub", "PHPMailer", "PhpSpreadsheet", "Mailjet"],
+=======
+    items: ["MySQL", "PostgreSQL", "MongoDB", "SQL", "Administración de bases de datos", "Postman", "OpenRouter (IA)", "PHPMailer", "PhpSpreadsheet", "Mailjet"],
+>>>>>>> 8bad1a3787296d49e90abe12e01cccfcf661fe21
   },
   {
     group: "También conozco",
@@ -248,6 +252,7 @@ export const certifications: {
   certificate?: string;
 }[] = [
   {
+<<<<<<< HEAD
     title: "Certificación de Content Hub para marketers",
     place: "HubSpot Academy",
     period: "",
@@ -255,6 +260,8 @@ export const certifications: {
       "https://app.hubspot.com/academy/achievements/zsc732yl/es/1/suemy-ivette-dzib-tzab/certificacion-de-content-hub-para-marketers",
   },
   {
+=======
+>>>>>>> 8bad1a3787296d49e90abe12e01cccfcf661fe21
     title: "Desarrollo Web Completo con HTML5, CSS3, JS AJAX PHP y MySQL",
     place: "Udemy",
     period: "",

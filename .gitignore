@@ -2,7 +2,10 @@ node_modules
 .next
 out
 .env*
+<<<<<<< HEAD
 !.env.example
+=======
+>>>>>>> 8bad1a3787296d49e90abe12e01cccfcf661fe21
 .vercel
 next-env.d.ts
 *.tsbuildinfo
