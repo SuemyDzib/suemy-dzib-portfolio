@@ -94,7 +94,7 @@ export default function Home() {
             </a>
             <a
               href={visibleProjects.length > 0 ? "#proyectos" : "#experiencia"}
-              className="rounded-md border-2 border-tinta px-5 py-[10px] font-bold transition-colors hover:bg-tinta/10"
+              className="rounded-md border-2 border-tinta px-5 py-2.5 font-bold transition-colors hover:bg-tinta/10"
             >
               {visibleProjects.length > 0 ? "Ver proyectos" : "Ver experiencia"}
             </a>
@@ -115,12 +115,12 @@ export default function Home() {
             <aside
               className={
                 profile.photo
-                  ? "order-first flex flex-wrap items-start gap-x-8 gap-y-8 lg:order-none lg:block"
+                  ? "order-first flex flex-wrap items-start gap-x-8 gap-y-8 lg:order-0 lg:block"
                   : ""
               }
             >
               {profile.photo && (
-                <div className="relative aspect-[4/5] w-36 shrink-0 overflow-hidden rounded-md shadow-[8px_8px_0_0_var(--color-izamal)] sm:w-44 lg:mb-10 lg:w-full lg:shadow-[10px_10px_0_0_var(--color-izamal)]">
+                <div className="relative aspect-4/5 w-36 shrink-0 overflow-hidden rounded-md shadow-[8px_8px_0_0_var(--color-izamal)] sm:w-44 lg:mb-10 lg:w-full lg:shadow-[10px_10px_0_0_var(--color-izamal)]">
                   <Image
                     src={profile.photo}
                     alt={profile.photoAlt}
@@ -147,7 +147,7 @@ export default function Home() {
           <ol className="space-y-12 border-l-2 border-line">
             {experience.map((job) => (
               <li key={job.company} className="relative pl-8">
-                <StitchMark className="absolute -left-[7px] top-2 bg-bg" />
+                <StitchMark className="absolute -left-1.75 top-2 bg-bg" />
                 <p className="text-sm text-muted">{job.period}</p>
                 <h3 className="mt-1 font-display text-2xl font-bold tracking-tight">
                   {job.role}
