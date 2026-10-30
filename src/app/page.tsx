@@ -318,6 +318,11 @@ export default function Home() {
                     <p className="text-muted">
                       {[item.place, item.period].filter(Boolean).join(", ")}
                     </p>
+                    {item.detail && (
+                      <p className="mt-2 max-w-[60ch] leading-relaxed">
+                        {item.detail}
+                      </p>
+                    )}
                   </li>
                 ))}
               </ul>

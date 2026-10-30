@@ -76,6 +76,8 @@ export const experience: Job[] = [
     summary:
       "Creación y edición de módulos internos con PHP y JavaScript, interfaces con HTML, CSS y frameworks de estilos, y manejo de información en MySQL.",
     highlights: [
+      "Migración de un sistema de PHP 5 a PHP 8 junto con mi equipo, reemplazando las funciones obsoletas o eliminadas conforme a la documentación oficial de PHP.",
+      "Mantenimiento de proyectos en PHP 5, 7 y 8 de forma simultánea, con entornos locales en WampServer y XAMPP.",
       "Integración con el software SICAS (SOAP y XML) para consultar y gestionar seguros, pólizas, fianzas y siniestros.",
       "Envío automatizado de correos electrónicos con PHPMailer y de mensajes a celulares con Mailjet.",
       "Importación y exportación de hojas de cálculo (xls, xlsx) con PhpSpreadsheet.",
@@ -222,7 +224,7 @@ export const skills: { group: string; items: string[] }[] = [
   },
   {
     group: "Datos y herramientas",
-    items: ["MySQL", "PostgreSQL", "MongoDB", "SQL", "Administración de bases de datos", "Postman", "Claude (IA para desarrollo)", "OpenRouter (IA)", "HubSpot Content Hub", "PHPMailer", "PhpSpreadsheet", "Mailjet"],
+    items: ["MySQL", "PostgreSQL", "MongoDB", "SQL", "Administración de bases de datos", "Git", "Composer", "npm", "Linux (Ubuntu)", "Apache (WampServer, XAMPP)", "Postman", "Claude (IA para desarrollo)", "OpenRouter (IA)", "HubSpot Content Hub", "PHPMailer", "PhpSpreadsheet", "Mailjet"],
   },
   {
     group: "También conozco",
@@ -230,11 +232,18 @@ export const skills: { group: string; items: string[] }[] = [
   },
 ];
 
-export const education = [
+export const education: {
+  title: string;
+  place: string;
+  period: string;
+  detail?: string;
+}[] = [
   {
     title: "Ingeniería en Sistemas Computacionales",
     place: "Instituto Tecnológico Superior de Motul (TecNM Campus Motul)",
-    period: "2016 – 2025",
+    period: "2016 – 2021, titulada por tesis en 2025",
+    detail:
+      "Tesis: prototipo de aplicación web responsiva, desarrollada con PHP y JavaScript sin frameworks, para monitorear la calidad del aire en los salones del instituto, con sensores conectados a Arduino que envían sus lecturas a una API y datos actualizados cada 5 minutos. Evalué el sistema con el método de indagación de usabilidad para medir la satisfacción de los usuarios e identificar mejoras.",
   },
 ];
 
